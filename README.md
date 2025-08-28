@@ -1,10 +1,15 @@
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fcommerce&project-name=commerce&repo-name=commerce&demo-title=Next.js%20Commerce&demo-url=https%3A%2F%2Fdemo.vercel.store&demo-image=https%3A%2F%2Fbigcommerce-demo-asset-ksvtgfvnd.vercel.app%2Fbigcommerce.png&env=COMPANY_NAME,SHOPIFY_REVALIDATION_SECRET,SHOPIFY_STORE_DOMAIN,SHOPIFY_STOREFRONT_ACCESS_TOKEN,SITE_NAME)
 
-# Next.js Commerce
+# НейроДиета — Документация и Веб-превью
 
-A high-performance, server-rendered Next.js App Router ecommerce application.
+Этот репозиторий содержит веб-превью и комплект документации для мобильного приложения «НейроДиета» (iOS/Android). Полная документация расположена в каталоге `docs/`.
 
-This template uses React Server Components, Server Actions, `Suspense`, `useOptimistic`, and more.
+Ключевые документы:
+- Бизнес-стратегия и позиционирование — `docs/business.md`
+- UX/UI и прототипы — `docs/ux-ui.md`
+- Техническая спецификация — `docs/tech-spec.md`
+- AI-ассистент «Нейро» — `docs/ai-assistant.md`
+- Дорожная карта и маркетинг — `docs/roadmap-marketing.md`
 
 <h3 id="v1-note"></h3>
 
@@ -43,22 +48,16 @@ Integrations enable upgraded or additional functionality for Next.js Commerce
 - [React Bricks](https://github.com/ReactBricks/nextjs-commerce-rb) ([Demo](https://nextjs-commerce.reactbricks.com/))
   - Edit pages, product details, and footer content visually using [React Bricks](https://www.reactbricks.com) visual headless CMS.
 
-## Running locally
+## Запуск локально
 
-You will need to use the environment variables [defined in `.env.example`](.env.example) to run Next.js Commerce. It's recommended you use [Vercel Environment Variables](https://vercel.com/docs/concepts/projects/environment-variables) for this, but a `.env` file is all that is necessary.
-
-> Note: You should not commit your `.env` file or it will expose secrets that will allow others to control your Shopify store.
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Link local instance with Vercel and GitHub accounts (creates `.vercel` directory): `vercel link`
-3. Download your environment variables: `vercel env pull`
+Веб-превью не требует внешних ключей.
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-Your app should now be running on [localhost:3000](http://localhost:3000/).
+Приложение будет доступно на [http://localhost:3000](http://localhost:3000).
 
 <details>
   <summary>Expand if you work at Vercel and want to run locally and / or contribute</summary>
@@ -70,6 +69,6 @@ Your app should now be running on [localhost:3000](http://localhost:3000/).
 1. Run `pnpm dev` to ensure everything is working correctly.
 </details>
 
-## Vercel, Next.js Commerce, and Shopify Integration Guide
+## Примечание
 
-You can use this comprehensive [integration guide](https://vercel.com/docs/integrations/ecommerce/shopify) with step-by-step instructions on how to configure Shopify as a headless CMS using Next.js Commerce as your headless Shopify storefront on Vercel.
+Исходный шаблон основан на Next.js Commerce. Часть е-коммерс функционала может быть сохранена для демо. Для деталей см. оригинальную документацию Next.js Commerce.
